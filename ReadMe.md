@@ -44,3 +44,15 @@ Id Name Grades
      - posto: index
      - tavolo: 'Tavolo Vip'
 1. Faccio il console log della variabile al punto 1
+
+<br>
+<br>
+<br>
+<br>
+
+## Steps exercise 2
+
+1. Creo l'Array con un object per ogni persona
+1. Usando il metodo .filter filtro in base al voto
+1. Usando il metodo .filter filtro in base al voto e id
+1. Uso il metodo map + uppercase per creare un Array
