@@ -55,4 +55,6 @@ Id Name Grades
 1. Creo l'Array con un object per ogni persona
 1. Usando il metodo .filter filtro in base al voto
 1. Usando il metodo .filter filtro in base al voto e id
-1. Uso il metodo map + uppercase per creare un Array
+1. Uso il metodo map creare un Array con i nomi degli studenti
+1. Creo una variabile che andro a riempire con i nomi in maiuscolo
+1. creo un ciclo for each per andare a modificare i nomi in maiuscolo
