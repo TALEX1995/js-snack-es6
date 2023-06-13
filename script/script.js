@@ -18,7 +18,7 @@ guests.forEach((element, index) => {
     
     const objectGuests =
     {
-        nomeDelTavalo : 'Tavolo VIP',
+        tavolo : 'Tavolo VIP',
         nome: element,
         posto: index,
     }
