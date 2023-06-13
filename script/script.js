@@ -12,18 +12,32 @@ const guests = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'G
 
 let infoGuests = []
 
-// Cicle forEach to create the objext
 
-guests.forEach((element, index) => {
+// Cicle with forEach to create the objext
+
+guests.forEach((name, index) => {
     
     const objectGuests =
     {
         tavolo : 'Tavolo VIP',
-        nome: element,
-        posto: index,
+        nome: name,
+        posto: index + 1,
     }
 
     infoGuests.push(objectGuests) 
 })
 
 console.log(infoGuests)
+
+
+
+// Cicle with map to create the objext
+const objectGuests = guests.map((name, index ) => {
+    return {
+        tavolo: 'Tavolo VIP',
+        nome: name,
+        age: index + 1,
+    }
+  })
+
+console.log(objectGuests)
