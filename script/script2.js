@@ -34,8 +34,26 @@ const students = [
         grades: 50,
     },
     {
-        id: 213,
+        id: 120,
         name: 'Francesca da Polenta',
-        grades: 120,
+        grades: 84,
     },
 ]
+
+
+// Array students with more than 70 grades
+
+const goodStudents = students.filter((student) => {
+    return student.grades > 70;
+})
+
+console.log(goodStudents)
+
+
+// Array students wich have more than 70 grades and id more than 120
+
+const idStudents = students.filter((student) => {
+    if (student.grades > 70 && student.id > 120) return true  
+})
+
+console.log(idStudents)
