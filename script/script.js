@@ -11,3 +11,19 @@ const guests = ['Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'G
 // Create an Array to insert object with guests info
 
 let infoGuests = []
+
+// Cicle forEach to create the objext
+
+guests.forEach((element, index) => {
+    
+    const objectGuests =
+    {
+        nomeDelTavalo : 'Tavolo VIP',
+        nome: element,
+        posto: index,
+    }
+
+    infoGuests.push(objectGuests) 
+})
+
+console.log(infoGuests)

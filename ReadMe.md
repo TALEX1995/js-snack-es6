@@ -39,7 +39,7 @@ Id Name Grades
 
 1. Creo un Array vuoto
 1. Creo un ciclo forEach(element index)
-   - Al Array creato al punto primo vado a sommare un oggetto nel quale andrò ad inserire
+   - Al Array creato al punto primo vado a pushare un oggetto nel quale andrò ad inserire
      - nome: element
      - posto: index
      - tavolo: 'Tavolo Vip'
