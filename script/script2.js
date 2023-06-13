@@ -57,3 +57,12 @@ const idStudents = students.filter((student) => {
 })
 
 console.log(idStudents)
+
+
+// Create array with student Name
+const studentName = students.map((student) => {
+    return student.name   
+})
+
+
+
