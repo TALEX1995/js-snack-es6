@@ -46,7 +46,9 @@ const teamFootball =
     },
 ]
 
+// Get element from dom
 
+const pointsFoulsPlaceholder = document.getElementById('points-fouls')
 
 // Cicle to randomize punti and falli
 
@@ -68,6 +70,19 @@ const pointsFouls = teamFootball.map(({punti, falliSubiti}) => {
     }
 })
 
-console.log(pointsFouls)
+
+// Variabile with ul element 
+let list = '<ul>'
+
+// Cicle to insert li element inside de variable with ul element
+pointsFouls.forEach(({punti, falliSubiti}) => {
+    list += `<li> punti: ${punti} falli subiti:${falliSubiti}</li>`
+})
+
+// Close ul element
+const endList = list + '</ul>'
+
+
+pointsFoulsPlaceholder.innerHTML = endList
 
 
