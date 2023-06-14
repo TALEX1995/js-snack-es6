@@ -79,3 +79,6 @@ Stampare in console la bici con peso minore utilizzando il destructuring
 1. Creo un ciclo for each
    - Creo una condizione
    - Se la weight e inferiore alla variabile d'appoggio le scambio
+1. Creo una variabile d'appoggio
+1. Creo un cilo for Each
+   - Vado a controllare se la weight e uguale alla weight nella variabile al punto 2 inserisco l'oggetto nella variabile al punto 4
