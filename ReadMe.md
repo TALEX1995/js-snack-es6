@@ -58,3 +58,24 @@ Id Name Grades
 1. Uso il metodo map creare un Array con i nomi degli studenti
 1. Creo una variabile che andro a riempire con i nomi in maiuscolo
 1. creo un ciclo for each per andare a modificare i nomi in maiuscolo
+
+<br>
+<br>
+<br>
+<br>
+
+# Snack Giorno 14/06/2023
+
+## Esercizio 1
+
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: name e weight.
+Stampare in console la bici con peso minore utilizzando il destructuring
+
+## Steps
+
+1. Creo l'Array
+1. Mi creo una variabile d'appoggio
+1. Creo un ciclo for each
+   - Creo una condizione
+   - Se la weight e inferiore della weight del object successivo lo inserisco nella variabile d'appoggio
