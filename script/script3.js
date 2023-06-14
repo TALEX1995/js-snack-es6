@@ -56,4 +56,14 @@ bikes.forEach(({weight}, index) => {
 
 console.log(lightBike)
 
+// Support Variable for the object 
+let lightestBike;
 
+// Cicle to take the object with the minor weight
+bikes.forEach(({weight}, index) => {
+    if(lightBike === weight) {
+        lightestBike = bikes[index]
+    }
+})
+
+console.log(lightestBike)
