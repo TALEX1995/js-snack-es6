@@ -57,8 +57,17 @@ team.punti =  Math.floor(Math.random() * 100) + 1
 team.falliSubiti = Math.floor(Math.random() * 40) + 1
 })
 
-
-
 console.log(teamFootball)
+
+
+// Create new Array with only points and fouls
+const pointsFouls = teamFootball.map(({punti, falliSubiti}) => {
+    return {
+        punti,
+        falliSubiti
+    }
+})
+
+console.log(pointsFouls)
 
 
