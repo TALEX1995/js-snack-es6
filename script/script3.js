@@ -43,6 +43,7 @@ const bikes =
 // Support Variable 
 
 let lightBike = Infinity
+let bikeObject;
 
 
 // Cicle
@@ -51,23 +52,12 @@ bikes.forEach(({weight}, index) => {
     // Condition
     if (weight < lightBike) {
         lightBike = weight
+        bikeObject = bikes[index]
     }
 })
 
 console.log(lightBike)
-
-// Support Variable for the object 
-let lightestBike;
-
-// Cicle to take the object with the minor weight
-bikes.forEach(({weight}, index) => {
-    if(lightBike === weight) {
-        lightestBike = bikes[index]
-    }
-})
-
-console.log(lightestBike)
-
+console.log(bikeObject)
 
 
 // Another method to do it with filter
@@ -77,6 +67,6 @@ console.log(bikeLightest)
 
 
 // Another method to do it with some
-// const lightestBike = bikes.find(({weight}) => weight === lightBike);
+const lightestBike = bikes.find(({weight}) => weight === lightBike);
 
-// console.log(lightestBike)
+console.log(lightestBike)
