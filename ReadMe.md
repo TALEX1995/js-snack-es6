@@ -81,3 +81,18 @@ Stampare in console la bici con peso minore utilizzando il destructuring
    - Creo una condizione
    - Se la weight e inferiore alla variabile d'appoggio al punto 2le scambio
    - Inserisco nella variabile al punto 3 l'elemento del giro in cui mi trovo
+
+## Esercizio 2
+
+Creare un array di oggetti di squadre di calcio.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà punti fatti e falli subiti.
+Infine, usando il destructuring, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+## Steps
+
+1. Creo l'Array
+1. Creare un ciclo
+   - Andare a sostituire il valore di falli subiti e punti con un numero generato casualmente
+1. Uso il metodo .map per andare a creare un altro array che mi restituisca solo i falli e i punti
