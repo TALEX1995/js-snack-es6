@@ -51,20 +51,15 @@ console.log(goodStudents)
 // Array students wich have more than 70 grades and id more than 120
 
 const idStudents = students.filter(student => {
-    if (student.grades > 70 && student.id > 120) return true  
+    return (student.grades > 70 && student.id > 120) 
 })
 
 console.log(idStudents)
 
 
-// Create array with student Name
-const studentName = students.map(student => student.name)
+// Create array with student Name uppercase
+const studentNameUppercase = students.map(student => student.name.toUpperCase())
 
-
-// Create array with name uppercase
-let studentNameUppercase = []
-
-studentName.forEach(name => studentNameUppercase.push(name.toUpperCase()));
 
 console.log(studentNameUppercase)
 
