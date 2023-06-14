@@ -67,3 +67,10 @@ bikes.forEach(({weight}, index) => {
 })
 
 console.log(lightestBike)
+
+
+
+// Another method to do it
+const bikeLightest = bikes.filter(({weight}) => weight === lightBike);
+
+console.log(bikeLightest)
