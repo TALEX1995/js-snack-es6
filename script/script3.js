@@ -70,7 +70,13 @@ console.log(lightestBike)
 
 
 
-// Another method to do it
+// Another method to do it with filter
 const bikeLightest = bikes.filter(({weight}) => weight === lightBike);
 
 console.log(bikeLightest)
+
+
+// Another method to do it with some
+// const lightestBike = bikes.find(({weight}) => weight === lightBike);
+
+// console.log(lightestBike)
