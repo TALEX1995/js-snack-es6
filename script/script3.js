@@ -1,6 +1,10 @@
 console.log('JS OK')
 
 
+// Get element from DOM
+
+const bikePlaceholder = document.getElementById('bike');
+
 // Create Array
 
 const bikes = 
@@ -60,6 +64,13 @@ console.log(lightBike)
 console.log(bikeObject)
 
 
+// Insert name and weight into DOM
+
+const {name, weight} = bikeObject
+const bike = `<p>Nome bicicletta: ${name}</p> <p>Weight: ${weight}</p>`
+bikePlaceholder.innerHTML = bike
+
+
 // Another method to do it with filter
 const bikeLightest = bikes.filter(({weight}) => weight === lightBike);
 
@@ -70,3 +81,5 @@ console.log(bikeLightest)
 const lightestBike = bikes.find(({weight}) => weight === lightBike);
 
 console.log(lightestBike)
+
+
